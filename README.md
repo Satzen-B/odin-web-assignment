@@ -1,1 +1,1 @@
-# odin-web-assignment
+This assignment is done by me, strictly following the rules set out by The Odin Project. I have on this day submit my work for any observation and corrections.
