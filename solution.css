@@ -1,0 +1,156 @@
+body{
+    margin: 0;
+    height: 100vh;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    display: flex;
+    flex-direction: column;
+    background: #eee
+}
+
+.content{
+    display: flex;
+    flex-direction: column;
+    background: #1F2937;
+    align-items: center;
+    justify-content: center;
+    padding: 0;
+    margin: 0;
+}
+
+.header{
+    display: flex;
+    align-items: center;
+    align-content: space-between;
+    gap: 300px;
+    margin-bottom: 80px;
+    padding: 0 16px;
+}
+
+.logo{
+    font-size: 24px;
+    color: #F9FAF8;
+}
+
+ul{
+    list-style-type: none;
+    display: flex;
+    gap: 16px;
+}
+   
+a{
+    text-decoration: none;
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+.box-container{
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 200px;
+     }
+
+
+.hero{
+    font-size:48px;
+    color: #F9FAF8;
+    font-weight: 900;
+}
+p{
+    margin-top: 0;
+    font-size: 11px;
+    color: #E5E7EB;
+}
+button{
+    background:#3882F6;
+    border: 1px solid #3882F6;
+    border-radius: 5px;
+   margin-left: 18px;
+}
+
+.place-holder{
+    margin: 48px;
+    padding: 48px;
+    border: 1px solid blue;
+    border-radius: 5px;
+    width: 150px;
+    font-size: 12px;
+    background: #dad7d7;
+    }
+
+
+    .container{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        padding: 28px;
+        margin: 0; 
+    }
+
+    .infor{
+        font-size: 28px;
+        /* color: darkmagenta; */
+        margin-bottom: 17px;
+    }
+    .cards{
+    display: flex;
+   }
+
+   .avatar{
+        width: 80px;
+        height: 80px;
+        border: 3px solid blue;
+        border-radius: 7px;
+        background: #dad7d7;
+        padding: 8px;
+        margin: 12px;
+        gap: 12px;
+    }
+
+.text{
+    margin-top: 0px;
+ 
+}
+
+.quote{
+    background: #959393;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    padding: 32px;
+}
+.quote p{
+    width: 500px;
+    border: none;
+    word-wrap: break-word;
+    font-size: 26px;
+    font-style: italic;
+    color: #eee;
+}
+
+.button{
+    display: flex;
+    flex-direction: column;
+    background: #3882F6;
+    align-items: center;
+    width: 600px;
+    border-radius: 2px;
+    margin: 52px;
+    padding: 2px 4px 16px 32px;
+}
+
+.sign-up{
+    border: 1px solid white;
+}
+
+.footer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 16px;
+    background: #1F2937;
+    color: #dad7d7;
+
+}
